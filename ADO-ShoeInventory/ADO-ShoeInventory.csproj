@@ -89,7 +89,9 @@
       <DependentUpon>7-LabelAddForm.cs</DependentUpon>
     </Compile>
     <Compile Include="FormHelper.cs" />
-    <Compile Include="MarkaLabel.cs" />
+    <Compile Include="MarkaLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -113,6 +115,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\ayakkabı.png" />
+    <Content Include="Resources\marka.png" />
+    <Content Include="Resources\report.png" />
+    <Content Include="Resources\report1.png" />
+    <Content Include="Resources\stock.png" />
+    <Content Include="Resources\txt.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -46,5 +46,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShoeRepository.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{891F40DA-9818-4600-A961-E307815D8129}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{CF6E8E78-9961-452F-9FF9-A7831EE4EE19}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
